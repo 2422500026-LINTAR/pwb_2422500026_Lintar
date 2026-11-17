@@ -46,6 +46,18 @@
               <p>Produk</p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="<?= base_url('admin/pelanggan') ?>" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>pelanggan</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('admin/ongkir26') ?>" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>Ongkir26</p>
+            </a>
+          </li>
         </ul>
       </li>
       <li class="nav-item">

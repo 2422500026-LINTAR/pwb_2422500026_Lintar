@@ -65,3 +65,18 @@ $route['admin/produk'] = 'administrator/Produk_controller/index';
 $route['admin/produk/tambah'] = 'administrator/Produk_controller/tambah_produk';
 $route['admin/produk/ubah/(:num)'] = 'administrator/Produk_controller/ubah_produk/$1';
 $route['admin/produk/hapus/(:num)'] = 'administrator/Produk_controller/hapus_produk/$1';
+# admin pelanggan
+$route['admin/pelanggan'] = 'administrator/Pelanggan_controller/index';
+$route['admin/pelanggan/tambah'] = 'administrator/Pelanggan_controller/tambah_pelanggan';
+$route['admin/pelanggan/ubah/(:num)'] = 'administrator/Pelanggan_controller/ubah_pelanggan/$1';
+$route['admin/pelanggan/hapus/(:num)'] = 'administrator/Pelanggan_controller/hapus_pelanggan/$1';
+# admin ongkir26
+$route['admin/ongkir26'] = 'administrator/Ongkir26_controller/index';
+$route['admin/ongkir26/tambah'] = 'administrator/Ongkir26_controller/tambah_ongkir26';
+$route['admin/ongkir26/ubah/(:num)'] = 'administrator/Ongkir26_controller/ubah_ongkir26/$1';
+$route['admin/ongkir26/hapus/(:num)'] = 'administrator/Ongkir26_controller/hapus_ongkir26/$1';
+#pelanggan
+$route['login'] = 'pelanggan_controller/login';
+$route['register'] = 'pelanggan_controller/register';
+$route['logout'] = 'pelanggan_controller/logout';
+$route['profil'] = 'pelanggan_controller/profil';
